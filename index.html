@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- icons from fonts awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+  <!-- my style -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>Data Covid-19 Indonesia</title>
+</head>
+
+<body>
+
+
+  <!-- navbar -->
+  <nav class="navbar navbar-dark bg-danger">
+    <span class="navbar-brand mb-0 h1 font-weight-bold">Bro.IT</span>
+  </nav>
+  <!-- akhir navbar -->
+
+  <!-- main -->
+  <h1 class="font-weight-bold text-center my-4">Data Pandemi Covid-19</h1>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col data-covid-global">
+        <div class="card mb-4 mx-auto">
+          <div class="card-header"><i class="fas fa-globe-americas"></i> Global</div>
+          <div class="card-body text-primary">
+            <table class="table table-borderless">
+              <thead class="text-white">
+                <tr>
+                  <th scope="col">Positive</th>
+                  <th scope="col">Sembuh</th>
+                  <th scope="col">Meninggal</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="data-global-table">
+                  <!-- disini datanya -->
+                </tr>
+              </tbody>
+              <caption>Source : <a href="https://covid19.mathdro.id/api">https://covid19.mathdro.id/api</a></caption>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="col data-covid-indonesia">
+        <div class="card border-primary mb-4 mx-auto">
+          <div class="card-header"><i class="fas fa-home"></i> Indonesia</div>
+          <div class="card-body text-primary">
+            <table class="table table-borderless">
+              <thead class="bg-info text-white">
+                <tr>
+                  <th scope="col">Positive</th>
+                  <th scope="col">Sembuh</th>
+                  <th scope="col">Meninggal</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="data-indonesia-table">
+                  <!-- disini datanya -->
+                </tr>
+              </tbody>
+              <caption>Source : <a href="https://covid19.mathdro.id/api/countries/indonesia">https://covid19.mathdro.id/api/countries/indonesia</a></caption>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <h2 class="font-weight-bold text-center my-4">Data Setiap Provinsi Indonesia</h2>
+        <table class="table table-borderless table-striped">
+          <thead class="bg-green text-white">
+            <tr>
+              <th scope="col">Provinsi</th>
+              <th scope="col">Positive</th>
+              <th scope="col">Sembuh</th>
+              <th scope="col">Meninggal</th>
+            </tr>
+          </thead>
+          <tbody class="data-provinsi-table">
+            <!-- disini datanya -->
+          </tbody>
+          <caption>Source : <a href="https://indonesia-covid-19.mathdro.id/api/provinsi/">https://indonesia-covid-19.mathdro.id/api/provinsi/</a></caption>
+        </table>
+      </div>
+    </div>
+
+  </div>
+  <!-- akhir main -->
+
+
+  <!-- footer -->
+  <footer class="bg-danger text-white text-center py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p class="socmed"><a href="https://www.instagram.com/auliasabri.io/"><i
+                class="fab fa-instagram-square"></i></a>
+            <a href="https://twitter.com/panggil_abu"><i class="fab fa-twitter-square"></i></a> <a
+              href="https://github.com/Aulia-S/"><i class="fab fa-github"></i></a>
+          </p>
+          <p class="mb-0">Data source from mathdro.id.</p>
+          <p class="mb-0 ">dedicated to my family, especially to my father who always sees the news
+            every
+            single
+            day.</p>
+          <p>Build with <i class="fas fa-heart"></i> & <i class="fas fa-laptop"></i> by <a
+              href="https://www.instagram.com/auliasabri.io/" class="text-white"><u>Aulia Sabri</u></a>.</p>
+          <p><sup>&copy;</sup> Copyright 2020.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer -->
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+
+  <!-- my script -->
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+/* fonts Lato from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    /* overflow-x: hidden; */
+}
+
+nav {
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: 18px;
+    padding: 0px;
+}
+
+h1,
+h2 {
+    color: #383838;
+}
+
+.data-covid-global div.card {
+    border-color: #a111f5;
+}
+
+.card {
+    max-width: 450px;
+    margin-top: 30px;
+}
+
+.card-body{
+    padding-bottom: 0;
+}
+
+.card-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    color: #383838;
+}
+
+td,
+thead,
+th {
+    text-align: center;
+}
+
+.data-covid-global th {
+    background-color: #d33ab2;
+}
+
+.data-covid-global th:nth-child(1),
+.data-covid-indonesia th:nth-child(1) {
+    border-top-left-radius: 35px;
+}
+
+.data-covid-global th:last-child,
+.data-covid-indonesia th:last-child {
+    border-top-right-radius: 35px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+.bg-green {
+    background-color: #3ce62d;
+}
+
+footer {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.fa-heart {
+    color: salmon;
+}
+
+.fa-laptop {
+    color: grey;
+}
+
+.socmed {
+    font-size: 24px;
+}
+
+.fa-github:hover {
+    color: rgb(0, 0, 0);
+}
+
+.fa-twitter-square:hover {
+    color: #3c9efa;
+}
+
+.fa-instagram-square:hover {
+    color: rgb(241, 87, 159);
+}
+
+.socmed a {
+    color: white;
+}
+
+.data-provinsi-table tr:last-child{
+    display: none;
+}
+
+table caption{
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+table caption a{
+    color: inherit;
+}
+
+
+
+
+/* MOBILE VERSION */
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+}
