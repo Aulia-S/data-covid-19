@@ -29,7 +29,7 @@ h2 {
     margin-top: 30px;
 }
 
-.card-body{
+.card-body {
     padding-bottom: 0;
 }
 
@@ -89,23 +89,27 @@ footer {
     color: rgb(0, 0, 0);
 }
 
-.fa-twitter-square:hover {
+.fa-twitter:hover {
     color: #3c9efa;
 }
 
-.fa-instagram-square:hover {
+.fa-instagram:hover {
     color: rgb(241, 87, 159);
+}
+
+.fa-youtube:hover {
+    color: red;
 }
 
 .socmed a {
     color: white;
 }
 
-.data-provinsi-table tr:last-child{
+.data-provinsi-table tr:last-child {
     display: none;
 }
 
-table caption{
+table caption {
     font-size: 12px;
     font-style: italic;
     text-align: center;
@@ -113,7 +117,7 @@ table caption{
     padding-bottom: 0;
 }
 
-table caption a{
+table caption a {
     color: inherit;
 }
 
