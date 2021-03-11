@@ -1,138 +1,130 @@
 /* fonts Lato from google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 body {
-    font-family: 'Lato', sans-serif;
-    /* overflow-x: hidden; */
+  font-family: "Lato", sans-serif;
+  background: #2f343a;
+  /* overflow-x: hidden; */
 }
-
-nav {
-    width: 100%;
-}
-
-.navbar-brand {
-    font-size: 18px;
-    padding: 0px;
-}
+/* #17a2b8 color info */
 
 h1,
 h2 {
-    color: #383838;
-}
-
-.data-covid-global div.card {
-    border-color: #a111f5;
+  color: #383838;
 }
 
 .card {
-    max-width: 450px;
-    margin-top: 30px;
+  background: #2f343a;
+}
+
+.data-covid-global div.card {
+  border-color: #17a2b8;
+}
+
+.card {
+  max-width: 450px;
+  margin-top: 30px;
 }
 
 .card-body {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 
 .card-header {
-    text-align: center;
-    font-weight: bold;
-    font-size: 26px;
-    color: #383838;
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+  border-bottom: 1px solid #6c757d;
 }
 
 td,
 thead,
 th {
-    text-align: center;
+  text-align: center;
 }
 
 .data-covid-global th {
-    background-color: #d33ab2;
+  background-color: #17a2b8;
 }
 
 .data-covid-global th:nth-child(1),
 .data-covid-indonesia th:nth-child(1) {
-    border-top-left-radius: 35px;
+  border-top-left-radius: 35px;
 }
 
 .data-covid-global th:last-child,
 .data-covid-indonesia th:last-child {
-    border-top-right-radius: 35px;
+  border-top-right-radius: 35px;
 }
 
 h2 {
-    font-size: 26px;
+  font-size: 26px;
 }
 
 .bg-green {
-    background-color: #3ce62d;
+  background-color: #17a2b8;
 }
 
 footer {
-    font-size: 12px;
-    margin-top: 20px;
+  font-size: 12px;
+  margin-top: 20px;
 }
 
 .fa-heart {
-    color: salmon;
+  color: salmon;
 }
 
 .fa-laptop {
-    color: grey;
+  color: grey;
 }
 
 .socmed {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .fa-github:hover {
-    color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 .fa-twitter:hover {
-    color: #3c9efa;
+  color: #3c9efa;
 }
 
 .fa-instagram:hover {
-    color: rgb(241, 87, 159);
+  color: rgb(241, 87, 159);
 }
 
 .fa-youtube:hover {
-    color: red;
+  color: red;
 }
 
 .socmed a {
-    color: white;
+  color: white;
 }
 
 .data-provinsi-table tr:last-child {
-    display: none;
+  display: none;
 }
 
 table caption {
-    font-size: 12px;
-    font-style: italic;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 0;
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 0;
 }
 
 table caption a {
-    color: inherit;
+  color: inherit;
 }
-
-
-
 
 /* MOBILE VERSION */
 @media (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
 
-    h1 {
-        font-size: 30px;
-    }
-
-    h2 {
-        font-size: 22px;
-    }
-
+  h2 {
+    font-size: 22px;
+  }
 }
